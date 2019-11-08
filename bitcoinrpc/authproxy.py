@@ -42,6 +42,7 @@ import base64
 import decimal
 import json
 import logging
+import ssl
 try:
     import urllib.parse as urlparse
 except ImportError:
